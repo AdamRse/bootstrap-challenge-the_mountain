@@ -3,7 +3,7 @@
 font-family: 'Rokkitt', serif; */
 #home{
     background-image: url("./../images/bg_header.jpg");
-    background-position: cover;
+    background-position: cover bottom;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
@@ -25,7 +25,7 @@ font-family: 'Rokkitt', serif; */
 }
 #about{
     background-image: url("./../images/bg_nuage.jpg");
-    background-position: cover;
+    background-position: cover bottom;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
@@ -45,7 +45,7 @@ font-family: 'Rokkitt', serif; */
 }
 #history{
     background-image: url("./../images/bg_appareil_photo.jpg");
-    background-position: cover;
+    background-position: cover bottom;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
@@ -58,5 +58,5 @@ font-family: 'Rokkitt', serif; */
 }
 #contact{
     background-image: url("./../images/bg_newsletter.jpg");
-    background-position: cover;
+    background-position: cover bottom;
 }
