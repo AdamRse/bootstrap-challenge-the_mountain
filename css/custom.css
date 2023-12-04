@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rokkitt&display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Rokkitt', serif; */
+#home{
+    background-image: url("./../images/bg_header.jpg");
+    background-position: cover;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+#home .pCentre{
+    font-family: 'Rokkitt', serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+#home .pCentreTitre{
+    font-size: 4rem;
+    line-height: 3.5rem;
+}
+#home .divButtons button{
+    font-size: 1.5rem;
+}
+#imgLogo{
+    width: 100px;
+    vertical-align: middle;
+}
+#about{
+    background-image: url("./../images/bg_nuage.jpg");
+    background-position: cover;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+#about .bandeauCyan{
+    background-color: rgba(121, 243, 255, .4);
+    font-size: 1.2rem;
+}
+#about .bandeauCyan h2{
+    font-size: 2.5rem;
+}
+#about .bandeauCyan h3{
+    font-size: 1.7rem;
+}
+#blog{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+}
+#history{
+    background-image: url("./../images/bg_appareil_photo.jpg");
+    background-position: cover;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+#history .bandeauCyan{
+    background-color: rgba(121, 243, 255, .4);
+    font-size: 1.2rem;
+}
+#history .titreStyle3{
+
+}
+#contact{
+    background-image: url("./../images/bg_newsletter.jpg");
+    background-position: cover;
+}
