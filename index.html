@@ -14,11 +14,15 @@
     <header id="home" class="pt-5 vh-100 w-100 d-inline-block">
         <nav class="navbar mt-5">
             <div class="container">
-              <a class="navbar-brand logoAlignement" href="#">
-                <img id="imgLogo" src="./images/your_logo.png" alt="">LOGO
+              <a class="navbar-brand" href="#">
+                <div class="d-flex">
+                    <img id="imgLogo" class="" src="./images/your_logo.png" alt="">
+                    <div class="d-flex align-self-center fw-lighter pt-2 textLogo">LOGO</div>
+                </div>
+                
             </a>
               <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-bars fa-2x"></i>
               </button>
               <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-body bg-dark p-0">
@@ -75,8 +79,8 @@
             </div>
           </div>
             <div class="d-flex justify-content-center divButtons">
-                <button type="button" class="btn btn-success p-3 m-2">Learn more</button>
-                <button type="button" class="btn btn-danger p-3 m-2">Download</button>
+                <button type="button" class="btn btn-success p-3 m-2 rounded-0">Learn more</button>
+                <button type="button" class="btn btn-danger p-3 m-2 rounded-0">Download</button>
             </div>
 
 
@@ -87,9 +91,10 @@
 
     <!-- SECTION FEATURES-->
 
-    <section id="features" class="container">
-        <div class="d-flex justify-content-center mb-5">
-            <div class="text-center p-3 mt-5 col-xs-12 col-4">
+
+    <section id="features" class="container text-center">
+        <div class="row">
+            <div class="text-center p-3 my-5 col-lg-4 col-12">
                 <i class="fa-solid fa-pencil fa-3x"></i>
                 <h2 class="p-3">Consecterus risus</h2>
                 <p class="mt-3">
@@ -98,7 +103,7 @@
                 </p>
             </div>
 
-            <div class="text-center p-3 mt-5 col-xs-12 col-4">
+            <div class="text-center p-3 my-5 col-lg-4 col-12">
                 <i class="fa-solid fa-camera fa-3x"></i>
                 <h2 class="p-3">Ultricies Aenean</h2>
                 <p class="mt-3">
@@ -107,7 +112,7 @@
                 </p>
             </div>
 
-            <div class="text-center p-3 mt-5 col-xs-12 col-4">
+            <div class="text-center p-3 my-5 col-lg-4 col-12">
                 <i class="fa-solid fa-bookmark fa-3x"></i>
                 <h2 class="p-3">Cras Sollicitudin</h2>
                 <p class="mt-3">
@@ -123,25 +128,25 @@
 
     
     <section id="about" class="d-flex justify-content-end">
-        <div class="col-6 col-xs-12">
-            <div class="bandeauCyan col-9 col-xs-11 p-5 text-white">
-                <h2>Ligula Mattis Ornare Ultricies</h2>
-                <h3>Pellentesque Cursus Amet Parturient Etiam</h3>
-                <p>
+        <div class="col-12 col-xl-6">
+            <div class="bandeauCyan col-12 col-sm-11 col-xl-11 p-5 text-white">
+                <h2 class="">Ligula Mattis Ornare Ultricies</h2>
+                <h3 class="mt-4 mb-5">Pellentesque Cursus Amet Parturient Etiam</h3>
+                <p class="mb-5">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Vitae temporibus facere, impedit placeat nostrum, animi voluptatem error, non sed rem excepturi sunt nemo atque ea?
                 </p>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between text-center">
                     <div class="border col-5">
                         <div class="d-inline-block margin-1">
-                            <p class="m-5">Ultricies</p>
-                            <h2 class="m-5">23,578</h2>
+                            <p class="m-4">Ultricies</p>
+                            <h2 class="m-4">23,578</h2>
                         </div>
                     </div>
                     <div class="border col-5">
                         <div class="d-inline-block margin-1">
-                            <p class="m-5">Fermentum</p>
-                            <h2 class="m-5">12,702</h2>
+                            <p class="m-4">Fermentum</p>
+                            <h2 class="m-4">12,702</h2>
                         </div>
                     </div>
                 </div>
@@ -154,7 +159,7 @@
 
 
     <section id="blog" class="container d-flex justify-content-between mt-5">
-        <div class="col-8 p-5">
+        <div class="col-lg-8 col-12 p-5">
             <h1 class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, fugit!</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis id atque ad quibusdam
@@ -168,12 +173,12 @@
                 ea minima? Quae iusto asperiores, facere quo quam mollitia repellendus, consequuntur magnam
                 ipsa neque vel officia.
             </p>
-            <button type="button" class="btn btn-danger p-3 mt-2">
+            <button type="button" class="btn btn-danger p-3 px-4 mt-2 rounded-0">
                 Take a look
                 <i class="fa-solid fa-circle-arrow-right"></i>
             </button>
         </div>
-        <div class="col-4 pt-5">
+        <div class="col-lg-4 col-0 pt-5">
             <img src="./images/1200.jpeg" class="w-100" alt="">
         </div>
     </section>
@@ -181,8 +186,8 @@
 <!-- HISTORY -->
 
     <section id="history" class="d-flex justify-content-start">
-        <div class="col-6 col-xs-12 d-flex justify-content-end">
-            <div class="bandeauCyan col-9 col-xs-11 p-5 text-white text-italic">
+        <div class="col-lg-6 col-12 d-flex justify-content-end">
+            <div class="bandeauCyan col-xl-9 col-sm-11 col-12 p-5 text-white text-italic">
                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minima odit quos saepe officia id.</h2>
                 <p class="text-italic">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, quas hic deserunt possimus sit enim veritatis illum tempora vitae dicta obcaecati
@@ -199,23 +204,22 @@
 <!-- PHOTOS -->
 
     
-    <section id="photos" class="pt-5 pb-5 bg-light">
-        <div class="container d-flex justify-content-center">
-            <div class="col-8">
+    <section id="photos" class="pt-5 pb-5 bg-light d-flex justify-content-center">
+        <div class="container row">
+            <div class="col-lg-8 col-md-12">
                 <img src="./images/300.jpeg" class="w-100 p-2" alt="">
-                <div class="d-flex justify-content-center">
-                    <div class="col-6">
+                <div class="row">
+                    <div class="col-md-6 col-12">
                         <img src="./images/800.jpeg" class="w-100 p-2" alt="">
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6 col-12">
                         <img src="./images/400.jpeg" class="w-100 p-2" alt="">
                         <img src="./images/2476.jpeg" class="w-100 p-2" alt="">
                     </div>
                 </div>
                 <img src="./images/140.jpeg" class="w-100 p-2" alt="">
             </div>
-
-            <div class="col-4">
+            <div class="col-lg-4 col-md-12">
                 <img src="./images/776.jpeg" class="w-100 p-2" alt="">
                 <img src="./images/439.jpeg" class="w-100 p-2" alt="">
             </div>
@@ -226,13 +230,13 @@
 <!-- PARTENAIRES -->
 
     
-    <section id="partenaires" class="partenaires container d-flex justify-content-center pt-5 pb-5">
-        <img src="./images/logo-sample-01.jpg" class="col-2 col-xs-4"  alt="">
-        <img src="./images/logo-sample-02.jpg" class="col-2 col-xs-4"  alt="">
-        <img src="./images/logo-sample-03.png" class="col-2 col-xs-4"  alt="">
-        <img src="./images/logo-sample-04.jpg" class="col-2 col-xs-4"  alt="">
-        <img src="./images/logo-sample-05.jpg" class="col-2 col-xs-4"  alt="">
-        <img src="./images/logo-sample-06.png" class="col-2 col-xs-4"  alt="">
+    <section id="partenaires" class="partenaires container pt-5 pb-5 text-center">
+        <img src="./images/logo-sample-01.jpg" class="col-12 col-sm-4 col-lg-2"  alt="">
+        <img src="./images/logo-sample-02.jpg" class="col-12 col-sm-4 col-lg-2"  alt="">
+        <img src="./images/logo-sample-03.png" class="col-12 col-sm-4 col-lg-2"  alt="">
+        <img src="./images/logo-sample-04.jpg" class="col-12 col-sm-4 col-lg-2"  alt="">
+        <img src="./images/logo-sample-05.jpg" class="col-12 col-sm-4 col-lg-2"  alt="">
+        <img src="./images/logo-sample-06.png" class="col-12 col-sm-4 col-lg-2"  alt="">
     </section>
 
 
@@ -241,14 +245,14 @@
 
     <section id="contact" class="mt-5 pt-5 pb-5 text-white">
         <div class="container">
-            <div class="col-8">
+            <div class="col-md-8 col-12">
                 <h1 class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, suscipit in.</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, distinctio molestias ratione est ea,
                     provident omnis vitae corrupti et veniam ipsam cumque similique iste tenetur id officia deserunt? Vel, incidunt!
                 </p>
             </div>
-            <form class="col-4">
+            <form class="col-md-4 col-12">
                 <div class="mb-3">
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your e-mail here">
                 </div>
@@ -257,12 +261,12 @@
         </div>
     </section>
 
-    <footer class="pb-2 bg-success row text-white">
-        <div class="col-6 p-5">
+    <footer class="pb-2 d-flex justify-content-between text-white">
+        <div class="col-12 col-sm-6 p-5">
             <h1>Your logo</h1>
             <p>(c) 2016 Your Compagny. Dsigned and Developped by Adam</p>
         </div>
-        <div class="col-6 p-5">
+        <div class="col-12 col-sm-6 p-5">
             Réseaux sociaux
         </div>
     </footer>

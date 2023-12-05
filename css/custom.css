@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rokkitt&display=swap');
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Rokkitt', serif; */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Rokkitt', serif; 
+}
 #home{
     background-image: url("./../images/bg_header.jpg");
-    background-position: cover bottom;
-    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-position: center;
     overflow-x: hidden;
+}
+#home .textLogo{
+    font-size: 2.4rem;
 }
 #home .pCentre{
     font-family: 'Rokkitt', serif;
@@ -20,12 +29,13 @@ font-family: 'Rokkitt', serif; */
     font-size: 1.5rem;
 }
 #imgLogo{
-    width: 100px;
+    height: 70px;
     vertical-align: middle;
 }
 #about{
     background-image: url("./../images/bg_nuage.jpg");
-    background-position: cover bottom;
+    background-size: cover;
+    background-position: center;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
@@ -45,7 +55,8 @@ font-family: 'Rokkitt', serif; */
 }
 #history{
     background-image: url("./../images/bg_appareil_photo.jpg");
-    background-position: cover bottom;
+    background-size: cover;
+    background-position: center;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
@@ -56,7 +67,15 @@ font-family: 'Rokkitt', serif; */
 #history .titreStyle3{
 
 }
+#partenaires{
+    font-size: 0;
+}
+#photos{
+    font-size: 0;
+}
 #contact{
     background-image: url("./../images/bg_newsletter.jpg");
-    background-position: cover bottom;
+}
+footer{
+    background-color: #24323b;
 }
