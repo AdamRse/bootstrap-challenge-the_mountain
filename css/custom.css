@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5{
     font-size: 1.5rem;
     line-height: 3rem;
 }
+#home .menuG{
+    width: 15%;
+    min-width: 200px;;
+}
 #home .pCentreTitre{
     font-size: 4rem;
     line-height: 3.5rem;
